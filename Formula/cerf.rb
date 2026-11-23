@@ -1,24 +1,24 @@
 class Cerf < Formula
   desc "A shell."
   homepage "https://github.com/cerfsh/cerf"
-  version "0.2.0"
+  version "0.3.0"
   license "Apache-2.0"
 
   if OS.mac?
     if Hardware::CPU.intel?
-      url "https://github.com/cerfsh/cerf/releases/download/v0.2.0/cerf-0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "007dc0fa23bc4c542e2866a7f5c0b4a44becf231ed6d8e5269b6743dd10b0f07"
+      url "https://github.com/cerfsh/cerf/releases/download/v0.3.0/cerf-0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "957fde88da7261b9040407bd5a433d1c01fd41c97340d111fb72ac0343959e06"
     elsif Hardware::CPU.arm?
-      url "https://github.com/cerfsh/cerf/releases/download/v0.2.0/cerf-0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "01821316ae735f7328b0b963704b8dbc96baffea5b535c70aeade1cb09865474"
+      url "https://github.com/cerfsh/cerf/releases/download/v0.3.0/cerf-0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "eb563abb55d98950370c85f23de34f1e92bf1344d199a670506a8489ce67e026"
     end
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/cerfsh/cerf/releases/download/v0.2.0/cerf-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "777c6909e2f51680b5735d3b8f7d174ee3d90bd3af1bde57c8effabcee7e235e"
+      url "https://github.com/cerfsh/cerf/releases/download/v0.3.0/cerf-0.3.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "68eb0eeea31d7967c5f6c042110e72846d14502fd760ad79ebe8e72805b5daac"
     elsif Hardware::CPU.arm?
-      url "https://github.com/cerfsh/cerf/releases/download/v0.2.0/cerf-0.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "fa1ce63ca3bf7e6503a3f383907ad971011fe196c22adde022891d33bb793dfc"
+      url "https://github.com/cerfsh/cerf/releases/download/v0.3.0/cerf-0.3.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0aae4766f7087f5423355ef3a70908c6cb738e218f1e55cb868b40dcea166636"
     end
   end
 
